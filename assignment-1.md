@@ -13,7 +13,15 @@ block system call for date command
 that means you don't have to uninstall date command but if you run kernel must not accept 
 do the same Firefox as well
 
+
 Problem #2 :  play with directory 
 
   create a directory without name from command line
+~~~
+mkdir " "
+~~~
   create a directory with name "-okgoogle"
+
+~~~
+mkdir ./-okgoogle
+~~~
