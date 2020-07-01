@@ -53,8 +53,10 @@ mkdir -p A/{B/{G/K/N/Reboot.txt,H/J/N/Reboot.txt},C/{I/J/N/Reboot.txt,J/L/N/Rebo
 
 #### How to write something "Mukesh mahto" in a directory
 1. run command 
-~~~ mkdir task
+~~~ 
+mkdir task
  ~~~
 run command 
-~~~ setfattr -n user.text -v "mukesh mahto" task
+~~~ 
+setfattr -n user.text -v "mukesh mahto" task
 ~~~
