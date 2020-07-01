@@ -1,4 +1,4 @@
-#### Assignment-1
+# Assignments
 
 
 
@@ -7,12 +7,13 @@ June 25, 2020
 
 Linux Kernel Assignment : 
 
+
 Problem #1     Block System call : 
 
 block system call for date command 
 that means you don't have to uninstall date command but if you run kernel must not accept 
 do the same Firefox as well
-# Date Command
+#### Date Command
 
 we need to find where the command is located so I have used the which command to find that.
 ~~~
@@ -24,7 +25,7 @@ Further, as the command is executing and we need to block the execution of the c
 sudo chmod -x /usr/bin/date
 ~~~
 
-# Firefox Command
+#### Firefox Command
 
 we need to find where the command is located so I have used the which command to find that.
 ~~~
@@ -46,12 +47,12 @@ mkdir " "
 ~~~
 mkdir ./-okgoogle
 ~~~
-#### create a directory structure.
+#### 3.create a directory structure.
 ~~~
 mkdir -p A/{B/{G/K/N/Reboot.txt,H/J/N/Reboot.txt},C/{I/J/N/Reboot.txt,J/L/N/Reboot.txt},D/{F/L/N/Reboot.txt,E/M/N/Reboot.txt}}
 ~~~
 
-#### How to write something "Mukesh mahto" in a directory
+#### 4.How to write something "Mukesh mahto" in a directory
 1. run command 
 ~~~ 
 mkdir task
